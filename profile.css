@@ -1,0 +1,264 @@
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border-width:5px;
+    border-style:outset;
+    padding: 10px;
+    box-shadow:20px 10px 10px grey;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+     animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.ima{
+   position: absolute;
+    left: 0px;
+
+}
+
+body{
+background-color: #f2f2f2;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+  h2 {
+      font-size: 13px;
+      text-transform: uppercase;
+      color:#000000	;
+      font-weight:400;
+      margin-bottom: 30px;
+  }
+
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color:#0000FF	;
+      font-weight: 600;
+
+  }
+  .panel-heading{
+  min-height: 0;
+  max-height: 10;
+  padding : 5px;
+  overflow-y: scroll;
+}
+.pointer {cursor: pointer;}
+.media{
+
+  padding : 5px;
+}
+.panel-body{
+width:10;
+  padding:5px;
+}
+.media-heading{
+           font-size:22px !important;
+      padding:1px 5px;
+}
+.center{
+
+}
+.in{
+ font-size:12px !important;
+  position:relative
+}
+
+.jumbotron {
+      background: url("http://www.onlyhdpic.com/images/Collections/hd-pics-photos-technology-world-map.jpg") no-repeat center center;
+      color:#fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+       background-color: black;
+  }
+
+.tips-info {
+    width: 70%;
+}
+.crane-listing {
+    margin-bottom: 2.7em;
+    border: 1px solid #ddd;
+    padding: 15px;
+     background-color:#fff;
+  margin:0 auto;
+  border:1px solid rgba(255, 255, 255, 0.4);;
+  background-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  margin-top:40px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: background 1s ease-in-out;
+  -moz-transition: background 1s ease-in-out;
+  -ms-transition: background 1s ease-in-out;
+  -o-transition: background 1s ease-in-out;
+  transition: background 1s ease-in-out;
+}
+.crane-img-size {
+    float: left;
+    width: 20;
+    height:30;
+    position: relative;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.crane-text.size {
+    float: right;
+    width
+    7 56%;
+}
+.crane-text h3 {
+    font-size: 1.4em;
+    color: #333333;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.crane-text h5 {
+    font-size: 1.1em;
+    color: #333333;
+    font-weight: 600;
+}
+
+.crane-text h6 {
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+ul.p-t li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.crane-listing:hover{
+background-color:#6C7AE0;
+
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+  box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
